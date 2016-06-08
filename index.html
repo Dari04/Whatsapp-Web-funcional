@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<meta charset="utf-8">
+	  	<title>Whatsapp Web</title>
+	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="stylesheet" href="css/grid-system.css" type="text/css">
+	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
+	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+      <link rel="stylesheet" href="css/ionicons.min.css">
+      <link rel="stylesheet" href="css/icomoon.css">
+      <link rel="stylesheet" href="css/chat.css">
+	  	<link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="js/main.js">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	     <!--<link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>-->
+	     <script src="js/prefixfree.min.js"></script>
+
+	  	<!-- Vincula los CSS que faltan -->
+	</head>
+	<body>
+		<header>
+		</header>
+		<section class="whatsapp">
+			<div class="container-fluid">
+				<div class="row">
+						<div class="col-5 without">
+						<div class="izquierda">
+								<!--Contenido-->
+								<div class="grey">
+									<img class="gian2" src="image/gian.jpg">
+									<div class="icon1">
+										<a class="icon-message"></a>
+										<a class="icon-dots-three-vertical"></a>
+									</div>
+								</div>
+							</div>
+							<div class="izquierda2 list-wrap">
+								<div class="buscador">
+									<form>
+										<i class="icon-search"></i><input type ="text" id="search-text" class="search search-box" placeholder="Buscar o empezar un chat nuevo">
+	    							</form>
+								</div>
+								<div>
+									<ul id="list" class="complete">
+					                    <li id="chat" class="chat">
+					                      <img class="foto" src="image/logocodeacademy.png">
+					                      <h4 class="uno labo">Laboratoria Perú</h4>
+					                      <p class="aldo1">Aldo: Dale Dale!</p>
+					                      <div class="hora">
+					                        <p>14:25</p>
+					                      </div>
+					                      
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/raymi.jpg">
+					                      <h4 class="uno nombre">Raymi</h4>
+					                      <p class="dos escritura">La clase va bien!</p>
+					                      <div class="hora">
+					                        <p>11:25</p>
+					                      </div>
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/mariana.jpg">
+					                      <h4 class="uno nombre">Mariana Costa</h4>
+					                      <p class="dos escritura">El panel de speakers esta buenazo</p>
+					                      <div class="hora">
+					                        <p>09:25</p>
+					                      </div>
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/anamaria.jpg">
+					                      <h4 class="uno nombre">Ana María Martinez Franklin</h4>
+					                      <p class="dos escritura">Pues dale chamo!</p>
+					                      <div class="hora">
+					                        <p>Ayer</p>
+					                      </div>
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/rodulfo.jpg">
+					                      <h4 class="uno nombre">Rodulfo Prieto</h4>
+					                      <p class="dos escritura">¿Cómo van las chicas?</p>
+					                      <div class="hora">
+					                        <p>Martes</p>
+					                      </div>
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/andrea.jpg">
+					                      <h4 class="uno nombre">Andrea Lamas</h4>
+					                      <p class="dos escritura">Hoy me toca clases de canto, yee!</p>
+					                      <div class="hora">
+					                        <p>Lunes</p>
+					                      </div>
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/mariapaula.jpg">
+					                      <h4 class="uno nombre">Maria Paula Rivarola</h4>
+					                      <p class="dos escritura">Wuju! esto me encanta!! en verdad!!</p>
+					                      <div class="hora">
+					                        <p>13/01/2016</p>
+					                      </div>
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/katy.jpg">
+					                      <h4 class="uno nombre">Katy Sanchez</h4>
+					                      <p class="dos escritura">No te preocupes, tengo el salón bajo control</p>
+					                      <div class="hora">
+					                        <p>11/01/2016</p>
+					                      </div>
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/aldo.jpg">
+					                      <h4 class="uno nombre">Aldo Alfaro</h4>
+					                      <p class="dos escritura">Vao a comer?</p>
+					                      <div class="hora">
+					                        <p>03/01/2016</p>
+					                      </div>
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/jose.jpg">
+					                      <h4 class="uno nombre">Jose</h4>
+					                      <p class="dos escritura">Hola</p>
+					                      <div class="hora">
+					                        <p>02/02/2016</p>
+					                      </div>
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/nayra.jpg">
+					                      <h4 class="uno nombre">Nayra</h4>
+					                      <p class="dos escritura">Tengo una pregunta!</p>
+					                      <div class="hora">
+					                      <p>01/12/2015</p>
+					                      </div>
+					                      
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/johanna.jpg">
+					                      <h4 class="uno nombre">Johanna Azañero</h4>
+					                      <p class="dos escritura">Mi código se me deformó :( </p>
+					                      <div class="hora">
+					                      <p>30/11/2015</p>
+					                      </div>
+					                      
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/Katyamiga.jpg">
+					                      <h4 class="uno nombre">Katy Vanessa</h4>
+					                      <p class="dos escritura">No se entrar a git hub</p>
+					                      <div class="hora">
+					                      <p>29/11/2015</p>
+					                      </div>
+					                      
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/monica.jpg">
+					                      <h4 class="uno nombre">Monica</h4>
+					                      <p class="dos escritura">No más tareas por favor!!</p>
+					                      <div class="hora">
+					                      <p>02/02/2015</p>
+					                      </div>
+					                      
+					                    </li>
+					                    <li class="chat">
+					                      <img class="foto" src="image/ana paula.jpg">
+					                      <h4 class="uno nombre">Ana Paula</h4>
+					                      <p class="dos escritura">Ya terminé el trabajo</p>
+					                      <div class="hora">
+					                      <p>05/10/2015</p>
+					                      </div>
+					                    </li>
+					                    <span class="empty-item">no results</span>
+                  					</ul>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-7 without">
+							<div class="derecha">
+								<div class="grey">
+										<img class="laboratoria" src="image/logocodeacademy.png" id="junis">
+										<div class="texto">
+											<h4 class="uno">Laboratoria Perú</h4>
+											<p class="dos">Ana Maria, Aldo, Gian, Mariana, Papu, Tú</p>
+										</div>
+										<div class="icon2">
+												<i class="icon-attachment"></i>
+												<i class="icon-dots-three-vertical segundo"></i>
+											</div>
+									
+								</div>
+							</div>
+							<div class="derecha2">
+								<div class="background" id="boxunico">
+									<ul class="caja">
+					                  <li class="right dialogo">
+					                     <p class="right blue">Andrea Lamas</p>
+					                     <p class="parrafo1">Chicos han visto el nuevo corte de Aldo?</p>
+					                     <span class="time1">11:12</span>
+					                  </li>
+					                  <li class="right space">
+					                     <p class="right pink">Mariana Costa</p>
+					                     <p class="parrafo1">¿Finalmente se cortó?</p>
+					                     <span class="time1">11:13</span>
+					                  </li>
+					                  <li class="right space">
+					                     <p class="right green">Maria Paula Rivarola</p>
+					                     <p class="parrafo1">Jajaja sii! finamente se cortó!!</p>
+					                     <span class="time1">11:14</span>
+					                  </li>
+					                  <li class="right space verde1">
+					                     <p class="parrafo1">Antes parecía mufasa jajajaja!!</p>
+					                     <span class="time2">11:14</span>
+					                  </li>
+					                  <li class="right space verde2">
+					                     <p class="parrafo1">Ahora si está decente.</p>
+					                     <span class="time2">11:18</span>
+					                  </li>
+					                  <li class="right space">
+					                     <p class="right blue">Andrea Lamas</p>
+					                     <p class="parrafo1">¿Por qué se lo habrá cortado?</p>
+					                     <span class="time1">11:20</span>
+					                  </li>
+					                  <li class="right space">
+					                     <p class="right yellow">Aldo Alfaro</p>
+					                     <p class="parrafo1">Ya ya ya, hacía mucho calor, que más.</p>
+					                     <span class="time1">11:25</span>
+					                  </li>
+					                  <li class="right space">
+					                     <p class="right blue">Andrea Lamas</p>
+					                     <p class="parrafo1">Está siguiendo los pasos de Juan Diego!</p>
+					                     <span class="time1">11:30</span>
+					                  </li>
+					                  <li class="right space">
+					                     <p class="right green">Maria Pula Rivarola</p>
+					                     <p class="parrafo1">Nunca!!! Juan Diego es único!</p>
+					                     <span class="time1">11:31</span>
+					                  </li>
+					                  <li id="place">
+					                  </li>
+
+					              </ul>											
+           							
+        
+									
+								</div>
+								<div class="smile">
+									<a type="button" id="emoticon" class="icon-insert_emoticon"></a>
+									<form>
+											<input id="texto" class="escribe" type="buscar" placeholder="Escribe tu mensaje aquí">
+		    						</form>
+		    						<a class="icon-mic"></a>
+		    						<a type="button" id="tweetButton" onclick="añadir()" href="#"><img class="send" src="image/boton.png"></a>
+								</div>
+				                 <!--ine-->
+							<div id="emojins">
+								<div  id="emojinav"><div clas="navcontent"><i onclick='undo_msg()' href='javascript:void(0)' class="navBTN fa fa-chevron-left" aria-hidden="true"></i><i href='javascript:void(0)' class="cat2btn navBTN fa fa-flag" aria-hidden="true"></i><i href='javascript:void(0)' class="cat3btn navBTN fa fa-paw" aria-hidden="true"></i><i href='javascript:void(0)' class="cat1btn navBTN fa fa-smile-o" aria-hidden="true"></i></div></div>
+ <div id="picker">
+  
+
+<div id="innerpicker">
+  <cat id="cat1">
+  <x onclick='onButtonClick("😀")' href='javascript:void(0)'>😀</x>
+  <x onclick='onButtonClick("😁")' href='javascript:void(0)'>😁</x>
+  <x onclick='onButtonClick("😂")' href='javascript:void(0)'>😂</x>
+  <x onclick='onButtonClick("😃")' href='javascript:void(0)'>😃</x>
+  <x onclick='onButtonClick("😄")' href='javascript:void(0)'>😄</x>
+  <x onclick='onButtonClick("😅")' href='javascript:void(0)'>😅</x>
+  <x onclick='onButtonClick("😆")' href='javascript:void(0)'>😆</x>
+  <x onclick='onButtonClick("😉")' href='javascript:void(0)'>😉</x>
+  <x onclick='onButtonClick("😊")' href='javascript:void(0)'>😊</x>
+  <x onclick='onButtonClick("😋")' href='javascript:void(0)'>😋</x>
+  <x onclick='onButtonClick("😎")' href='javascript:void(0)'>😎</x>
+  <x onclick='onButtonClick("😍")' href='javascript:void(0)'>😍</x>
+  <x onclick='onButtonClick("😘")' href='javascript:void(0)'>😘</x>
+  <x onclick='onButtonClick("😗")' href='javascript:void(0)'>😗</x>
+  <x onclick='onButtonClick("😙")' href='javascript:void(0)'>😙</x>
+  <x onclick='onButtonClick("😚")' href='javascript:void(0)'>😚</x>
+  <x onclick='onButtonClick("☺️")' href='javascript:void(0)'>☺️</x>
+  <x onclick='onButtonClick("🙂")' href='javascript:void(0)'>🙂</x>
+  <x onclick='onButtonClick("🤗")' href='javascript:void(0)'>🤗</x>
+  <x onclick='onButtonClick("😇")' href='javascript:void(0)'>😇</x>
+  <x onclick='onButtonClick("🤓")' href='javascript:void(0)'>🤓</x>
+  <x onclick='onButtonClick("🤔")' href='javascript:void(0)'>🤔</x>
+  <x onclick='onButtonClick("😐")' href='javascript:void(0)'>😐</x>
+  <x onclick='onButtonClick("😑")' href='javascript:void(0)'>😑</x>
+  <x onclick='onButtonClick("😶")' href='javascript:void(0)'>😶</x>
+  <x onclick='onButtonClick("🙄")' href='javascript:void(0)'>🙄</x>
+  <x onclick='onButtonClick("😏")' href='javascript:void(0)'>😏</x>
+  <x onclick='onButtonClick("😣")' href='javascript:void(0)'>😣</x>
+  <x onclick='onButtonClick("😥")' href='javascript:void(0)'>😥</x>
+  <x onclick='onButtonClick("😮")' href='javascript:void(0)'>😮</x>
+  <x onclick='onButtonClick("🤐")' href='javascript:void(0)'>🤐</x>
+  <x onclick='onButtonClick("😯")' href='javascript:void(0)'>😯</x>
+  <x onclick='onButtonClick("😪")' href='javascript:void(0)'>😪</x>
+  <x onclick='onButtonClick("😫")' href='javascript:void(0)'>😫</x>
+  <x onclick='onButtonClick("😴")' href='javascript:void(0)'>😴</x>
+  <x onclick='onButtonClick("😌")' href='javascript:void(0)'>😌</x>
+  <x onclick='onButtonClick("😛")' href='javascript:void(0)'>😛</x>
+  <x onclick='onButtonClick("😜")' href='javascript:void(0)'>😜</x>
+  <x onclick='onButtonClick("😝")' href='javascript:void(0)'>😝</x>
+  <x onclick='onButtonClick("😒")' href='javascript:void(0)'>😒</x>
+  <x onclick='onButtonClick("😓")' href='javascript:void(0)'>😓</x>
+  <x onclick='onButtonClick("😔")' href='javascript:void(0)'>😔</x>
+  <x onclick='onButtonClick("😕")' href='javascript:void(0)'>😕</x>
+  <x onclick='onButtonClick("🙃")' href='javascript:void(0)'>🙃</x>
+  <x onclick='onButtonClick("🤑")' href='javascript:void(0)'>🤑</x>
+  <x onclick='onButtonClick("😲")' href='javascript:void(0)'>😲</x>
+  <x onclick='onButtonClick("😷")' href='javascript:void(0)'>😷</x>
+  <x onclick='onButtonClick("🤒")' href='javascript:void(0)'>🤒</x>
+  <x onclick='onButtonClick("🤕")' href='javascript:void(0)'>🤕</x>
+  <x onclick='onButtonClick("☹️")' href='javascript:void(0)'>☹️</x>
+  <x onclick='onButtonClick("🙁")' href='javascript:void(0)'>🙁</x>
+  <x onclick='onButtonClick("😖")' href='javascript:void(0)'>😖</x>
+  <x onclick='onButtonClick("😞")' href='javascript:void(0)'>😞</x>
+  <x onclick='onButtonClick("😟")' href='javascript:void(0)'>😟</x>
+  <x onclick='onButtonClick("😤")' href='javascript:void(0)'>😤</x>
+  <x onclick='onButtonClick("😢")' href='javascript:void(0)'>😢</x>
+  <x onclick='onButtonClick("😭")' href='javascript:void(0)'>😭</x>
+  <x onclick='onButtonClick("😦")' href='javascript:void(0)'>😦</x>
+  <x onclick='onButtonClick("😧")' href='javascript:void(0)'>😧</x>
+  <x onclick='onButtonClick("😨")' href='javascript:void(0)'>😨</x>
+  <x onclick='onButtonClick("😩")' href='javascript:void(0)'>😩</x>
+  <x onclick='onButtonClick("😬")' href='javascript:void(0)'>😬</x>
+  <x onclick='onButtonClick("😰")' href='javascript:void(0)'>😰</x>
+  <x onclick='onButtonClick("😱")' href='javascript:void(0)'>😱</x>
+  <x onclick='onButtonClick("😳")' href='javascript:void(0)'>😳</x>
+  <x onclick='onButtonClick("😵")' href='javascript:void(0)'>😵</x>
+  <x onclick='onButtonClick("😡")' href='javascript:void(0)'>😡</x>
+  <x onclick='onButtonClick("😠")' href='javascript:void(0)'>😠</x>
+  <x onclick='onButtonClick("😈")' href='javascript:void(0)'>😈</x>
+  <x onclick='onButtonClick("👿")' href='javascript:void(0)'>👿</x>
+  <x onclick='onButtonClick("👹")' href='javascript:void(0)'>👹</x>
+  <x onclick='onButtonClick("👺")' href='javascript:void(0)'>👺</x>
+  <x onclick='onButtonClick("💀")' href='javascript:void(0)'>💀</x>
+  <x onclick='onButtonClick("☠️")' href='javascript:void(0)'>☠️</x>
+  <x onclick='onButtonClick("👻")' href='javascript:void(0)'>👻</x>
+  <x onclick='onButtonClick("👽")' href='javascript:void(0)'>👽</x>
+  <x onclick='onButtonClick("👾")' href='javascript:void(0)'>👾</x>
+  <x onclick='onButtonClick("🤖")' href='javascript:void(0)'>🤖</x>
+  <x onclick='onButtonClick("💩")' href='javascript:void(0)'>💩</x>
+  <x onclick='onButtonClick("😺")' href='javascript:void(0)'>😺</x>
+  <x onclick='onButtonClick("😸")' href='javascript:void(0)'>😸</x>
+  <x onclick='onButtonClick("😹")' href='javascript:void(0)'>😹</x>
+  <x onclick='onButtonClick("😻")' href='javascript:void(0)'>😻</x>
+  <x onclick='onButtonClick("😼")' href='javascript:void(0)'>😼</x>
+  <x onclick='onButtonClick("😽")' href='javascript:void(0)'>😽</x>
+  <x onclick='onButtonClick("🙀")' href='javascript:void(0)'>🙀</x>
+  <x onclick='onButtonClick("😿")' href='javascript:void(0)'>😿</x>
+  <x onclick='onButtonClick("😾")' href='javascript:void(0)'>😾</x>
+  <x onclick='onButtonClick("🙈")' href='javascript:void(0)'>🙈</x>
+  <x onclick='onButtonClick("🙉")' href='javascript:void(0)'>🙉</x>
+  <x onclick='onButtonClick("🙊")' href='javascript:void(0)'>🙊</x>
+  <x onclick='onButtonClick("👦")' href='javascript:void(0)'>👦</x>
+  <x onclick='onButtonClick("👦🏻")' href='javascript:void(0)'>👦🏻</x>
+  <x onclick='onButtonClick("👦🏼")' href='javascript:void(0)'>👦🏼</x>
+  <x onclick='onButtonClick("👦🏽")' href='javascript:void(0)'>👦🏽</x>
+  <x onclick='onButtonClick("👦🏾")' href='javascript:void(0)'>👦🏾</x>
+  <x onclick='onButtonClick("👦🏿")' href='javascript:void(0)'>👦🏿</x>
+  <x onclick='onButtonClick("👧")' href='javascript:void(0)'>👧</x>
+  <x onclick='onButtonClick("👧🏻")' href='javascript:void(0)'>👧🏻</x>
+  <x onclick='onButtonClick("👧🏼")' href='javascript:void(0)'>👧🏼</x>
+    <x onclick='onButtonClick("👧🏽")' href='javascript:void(0)'>👧🏽</x>
+  <x onclick='onButtonClick("👧🏾")' href='javascript:void(0)'>👧🏾</x>
+  <x onclick='onButtonClick("👧🏿")' href='javascript:void(0)'>👧🏿</x>
+  <x onclick='onButtonClick("👨")' href='javascript:void(0)'>👨</x>
+  <x onclick='onButtonClick("👨🏻")' href='javascript:void(0)'>👨🏻</x>
+  <x onclick='onButtonClick("👨🏼")' href='javascript:void(0)'>👨🏼</x>
+  <x onclick='onButtonClick("👨🏽")' href='javascript:void(0)'>👨🏽</x>
+  <x onclick='onButtonClick("👨🏾")' href='javascript:void(0)'>👨🏾</x>
+  <x onclick='onButtonClick("👨🏿")' href='javascript:void(0)'>👨🏿</x>
+  <x onclick='onButtonClick("👩")' href='javascript:void(0)'>👩</x>
+  <x onclick='onButtonClick("👩🏻")' href='javascript:void(0)'>👩🏻</x>
+  <x onclick='onButtonClick("👩🏼")' href='javascript:void(0)'>👩🏼</x>
+  <x onclick='onButtonClick("👩🏽")' href='javascript:void(0)'>👩🏽</x>
+  <x onclick='onButtonClick("👩🏾")' href='javascript:void(0)'>👩🏾</x>
+  <x onclick='onButtonClick("👩🏿")' href='javascript:void(0)'>👩🏿</x>
+  <x onclick='onButtonClick("👴")' href='javascript:void(0)'>👴</x>
+  <x onclick='onButtonClick("👴🏻")' href='javascript:void(0)'>👴🏻</x>
+  <x onclick='onButtonClick("👴🏼")' href='javascript:void(0)'>👴🏼</x>
+  <x onclick='onButtonClick("👴🏽")' href='javascript:void(0)'>👴🏽</x>
+  <x onclick='onButtonClick("👴🏾")' href='javascript:void(0)'>👴🏾</x>
+  <x onclick='onButtonClick("👴🏿")' href='javascript:void(0)'>👴🏿</x>
+  <x onclick='onButtonClick("👵")' href='javascript:void(0)'>👵</x>
+  <x onclick='onButtonClick("👵🏻")' href='javascript:void(0)'>👵🏻</x>
+  <x onclick='onButtonClick("👵🏼")' href='javascript:void(0)'>👵🏼</x>
+  <x onclick='onButtonClick("👵🏽")' href='javascript:void(0)'>👵🏽</x>
+  <x onclick='onButtonClick("👵🏾")' href='javascript:void(0)'>👵🏾</x>
+  <x onclick='onButtonClick("👵🏿")' href='javascript:void(0)'>👵🏿</x>
+  <x onclick='onButtonClick("👶")' href='javascript:void(0)'>👶</x>
+  <x onclick='onButtonClick("👶🏻")' href='javascript:void(0)'>👶🏻</x>
+  <x onclick='onButtonClick("👶🏼")' href='javascript:void(0)'>👶🏼</x>
+  <x onclick='onButtonClick("👶🏽")' href='javascript:void(0)'>👶🏽</x>
+  <x onclick='onButtonClick("👶🏾")' href='javascript:void(0)'>👶🏾</x>
+  <x onclick='onButtonClick("👶🏿")' href='javascript:void(0)'>👶🏿</x>
+  <x onclick='onButtonClick("👱")' href='javascript:void(0)'>👱</x>
+  <x onclick='onButtonClick("👱🏻")' href='javascript:void(0)'>👱🏻</x>
+  <x onclick='onButtonClick("👱🏼")' href='javascript:void(0)'>👱🏼</x>
+  <x onclick='onButtonClick("👱🏽")' href='javascript:void(0)'>👱🏽</x>
+  <x onclick='onButtonClick("👱🏾")' href='javascript:void(0)'>👱🏾</x>
+  <x onclick='onButtonClick("👱🏿")' href='javascript:void(0)'>👱🏿</x>
+  <x onclick='onButtonClick("👮")' href='javascript:void(0)'>👮</x>
+  <x onclick='onButtonClick("👮🏻")' href='javascript:void(0)'>👮🏻</x>
+  <x onclick='onButtonClick("👮🏼")' href='javascript:void(0)'>👮🏼</x>
+  <x onclick='onButtonClick("👮🏽")' href='javascript:void(0)'>👮🏽</x>
+  <x onclick='onButtonClick("👮🏾")' href='javascript:void(0)'>👮🏾</x>
+  <x onclick='onButtonClick("👮🏿")' href='javascript:void(0)'>👮🏿</x>
+  <x onclick='onButtonClick("👲")' href='javascript:void(0)'>👲</x>
+  <x onclick='onButtonClick("👲🏻")' href='javascript:void(0)'>👲🏻</x>
+  <x onclick='onButtonClick("👲🏼")' href='javascript:void(0)'>👲🏼</x>
+  <x onclick='onButtonClick("👲🏽")' href='javascript:void(0)'>👲🏽</x>
+  <x onclick='onButtonClick("👲🏾")' href='javascript:void(0)'>👲🏾</x>
+  <x onclick='onButtonClick("👲🏿")' href='javascript:void(0)'>👲🏿</x>
+  <x onclick='onButtonClick("")' href='javascript:void(0)'></x>
+  <x onclick='onButtonClick("👳")' href='javascript:void(0)'>👳</x>
+  <x onclick='onButtonClick("👳🏻")' href='javascript:void(0)'>👳🏻</x>
+  <x onclick='onButtonClick("👳🏼")' href='javascript:void(0)'>👳🏼</x>
+  <x onclick='onButtonClick("👳🏽")' href='javascript:void(0)'>👳🏽</x>
+  <x onclick='onButtonClick("👳🏾")' href='javascript:void(0)'>👳🏾</x>
+  <x onclick='onButtonClick("👳🏿")' href='javascript:void(0)'>👳🏿</x>
+  <x onclick='onButtonClick("👷")' href='javascript:void(0)'>👷</x>
+  <x onclick='onButtonClick("👷🏻")' href='javascript:void(0)'>👷🏻</x>
+  <x onclick='onButtonClick("👷🏼")' href='javascript:void(0)'>👷🏼</x>
+  <x onclick='onButtonClick("👷🏽")' href='javascript:void(0)'>👷🏽</x>
+  <x onclick='onButtonClick("👷🏾")' href='javascript:void(0)'>👷🏾</x>
+  <x onclick='onButtonClick("👷🏿")' href='javascript:void(0)'>👷🏿</x>
+  <x onclick='onButtonClick("⛑️")' href='javascript:void(0)'>⛑️</x>
+  <x onclick='onButtonClick("👸")' href='javascript:void(0)'>👸</x>
+  <x onclick='onButtonClick("👸🏻")' href='javascript:void(0)'>👸🏻</x>
+  <x onclick='onButtonClick("👸🏼")' href='javascript:void(0)'>👸🏼</x>
+  <x onclick='onButtonClick("👸🏽")' href='javascript:void(0)'>👸🏽</x>
+  <x onclick='onButtonClick("👸🏾")' href='javascript:void(0)'>👸🏾</x>
+  <x onclick='onButtonClick("👸🏿")' href='javascript:void(0)'>👸🏿</x>
+  <x onclick='onButtonClick("💂")' href='javascript:void(0)'>💂</x>
+  <x onclick='onButtonClick("💂🏻")' href='javascript:void(0)'>💂🏻</x>
+  <x onclick='onButtonClick("💂🏼")' href='javascript:void(0)'>💂🏼</x>
+  <x onclick='onButtonClick("💂🏽")' href='javascript:void(0)'>💂🏽</x>
+  <x onclick='onButtonClick("💂🏾")' href='javascript:void(0)'>💂🏾</x>
+  <x onclick='onButtonClick("💂🏿")' href='javascript:void(0)'>💂🏿</x>
+  <x onclick='onButtonClick("🕵️")' href='javascript:void(0)'>🕵️</x>
+  <x onclick='onButtonClick("🕵️🏻")' href='javascript:void(0)'>🕵️🏻</x>
+  <x onclick='onButtonClick("🕵️🏼")' href='javascript:void(0)'>🕵️🏼</x>
+  <x onclick='onButtonClick("🕵️🏽")' href='javascript:void(0)'>🕵️🏽</x>
+  <x onclick='onButtonClick("🕵️🏾")' href='javascript:void(0)'>🕵️🏾</x>
+  <x onclick='onButtonClick("🕵️🏿")' href='javascript:void(0)'>🕵️🏿</x>
+  <x onclick='onButtonClick("🎅")' href='javascript:void(0)'>🎅</x>
+  <x onclick='onButtonClick("🎅🏻")' href='javascript:void(0)'>🎅🏻</x>
+  <x onclick='onButtonClick("🎅🏼")' href='javascript:void(0)'>🎅🏼</x>
+  <x onclick='onButtonClick("🎅🏽")' href='javascript:void(0)'>🎅🏽</x>
+  <x onclick='onButtonClick("🎅🏾")' href='javascript:void(0)'>🎅🏾</x>
+  <x onclick='onButtonClick("🎅🏿")' href='javascript:void(0)'>🎅🏿</x>
+  <x onclick='onButtonClick("👰")' href='javascript:void(0)'>👰</x>
+  <x onclick='onButtonClick("👰🏻")' href='javascript:void(0)'>👰🏻</x>
+  <x onclick='onButtonClick("👰🏼")' href='javascript:void(0)'>👰🏼</x>
+  <x onclick='onButtonClick("👰🏽")' href='javascript:void(0)'>👰🏽</x>
+  <x onclick='onButtonClick("👰🏾")' href='javascript:void(0)'>👰🏾</x>
+  <x onclick='onButtonClick("👰🏿")' href='javascript:void(0)'>👰🏿</x>
+  <x onclick='onButtonClick("👼")' href='javascript:void(0)'>👼</x>
+  <x onclick='onButtonClick("👼🏻")' href='javascript:void(0)'>👼🏻</x>
+  <x onclick='onButtonClick("👼🏼")' href='javascript:void(0)'>👼🏼</x>
+  <x onclick='onButtonClick("👼🏽")' href='javascript:void(0)'>👼🏽</x>
+  <x onclick='onButtonClick("👼🏾")' href='javascript:void(0)'>👼🏾</x>
+  <x onclick='onButtonClick("💆")' href='javascript:void(0)'>💆</x>
+  <x onclick='onButtonClick("💆🏻")' href='javascript:void(0)'>💆🏻</x>
+  <x onclick='onButtonClick("💆🏼")' href='javascript:void(0)'>💆🏼</x>
+  <x onclick='onButtonClick("💆🏽")' href='javascript:void(0)'>💆🏽</x>
+  <x onclick='onButtonClick("💆🏾")' href='javascript:void(0)'>💆🏾</x>
+  <x onclick='onButtonClick("💆🏿")' href='javascript:void(0)'>💆🏿</x>
+  <x onclick='onButtonClick("💇")' href='javascript:void(0)'>💇</x>
+  <x onclick='onButtonClick("💇🏻")' href='javascript:void(0)'>💇🏻</x>
+  <x onclick='onButtonClick("💇🏼")' href='javascript:void(0)'>💇🏼</x>
+  <x onclick='onButtonClick("💇🏽")' href='javascript:void(0)'>💇🏽</x>
+  <x onclick='onButtonClick("💇🏾")' href='javascript:void(0)'>💇🏾</x>
+  <x onclick='onButtonClick("💇🏿")' href='javascript:void(0)'>💇🏿</x>
+  <x onclick='onButtonClick("🙍")' href='javascript:void(0)'>🙍</x>
+  <x onclick='onButtonClick("🙍🏻")' href='javascript:void(0)'>🙍🏻</x>
+  <x onclick='onButtonClick("🙍🏼")' href='javascript:void(0)'>🙍🏼</x>
+  <x onclick='onButtonClick("🙍🏽")' href='javascript:void(0)'>🙍🏽</x>
+  <x onclick='onButtonClick("🙍🏾")' href='javascript:void(0)'>🙍🏾</x>
+  <x onclick='onButtonClick("🙍🏿")' href='javascript:void(0)'>🙍🏿</x>
+  <x onclick='onButtonClick("🙎")' href='javascript:void(0)'>🙎</x>
+  <x onclick='onButtonClick("🙎🏻")' href='javascript:void(0)'>🙎🏻</x>
+  <x onclick='onButtonClick("🙎🏼")' href='javascript:void(0)'>🙎🏼</x>
+  <x onclick='onButtonClick("🙎🏽")' href='javascript:void(0)'>🙎🏽</x>
+  <x onclick='onButtonClick("🙎🏾")' href='javascript:void(0)'>🙎🏾</x>
+  <x onclick='onButtonClick("🙎🏿")' href='javascript:void(0)'>🙎🏿</x>
+  <x onclick='onButtonClick("🙅")' href='javascript:void(0)'>🙅</x>
+
+  <x onclick='onButtonClick("🙅🏻")' href='javascript:void(0)'>🙅🏻</x>
+  <x onclick='onButtonClick("🙅🏼")' href='javascript:void(0)'>🙅🏼</x>
+  <x onclick='onButtonClick("🙅🏽")' href='javascript:void(0)'>🙅🏽</x>
+  <x onclick='onButtonClick("🙅🏾")' href='javascript:void(0)'>🙅🏾</x>
+  <x onclick='onButtonClick("🙅🏿")' href='javascript:void(0)'>🙅🏿</x>
+  <x onclick='onButtonClick("🙆")' href='javascript:void(0)'>🙆</x>
+  <x onclick='onButtonClick("🙆🏻")' href='javascript:void(0)'>🙆🏻</x>
+  <x onclick='onButtonClick("🙆🏼")' href='javascript:void(0)'>🙆🏼</x>
+  <x onclick='onButtonClick("🙆🏽")' href='javascript:void(0)'>🙆🏽</x>
+  <x onclick='onButtonClick("🙆🏾")' href='javascript:void(0)'>🙆🏾</x>
+  <x onclick='onButtonClick("🙆🏿")' href='javascript:void(0)'>🙆🏿</x>
+  <x onclick='onButtonClick("💁")' href='javascript:void(0)'>💁</x>
+  <x onclick='onButtonClick("💁🏻")' href='javascript:void(0)'>💁🏻</x>
+  <x onclick='onButtonClick("💁🏼")' href='javascript:void(0)'>💁🏼</x>
+  <x onclick='onButtonClick("💁🏽")' href='javascript:void(0)'>💁🏽</x>
+  <x onclick='onButtonClick("💁🏾")' href='javascript:void(0)'>💁🏾</x>
+  <x onclick='onButtonClick("💁🏿")' href='javascript:void(0)'>💁🏿</x>
+  <x onclick='onButtonClick("🙋")' href='javascript:void(0)'>🙋</x>
+  <x onclick='onButtonClick("🙋🏻")' href='javascript:void(0)'>🙋🏻</x>
+  <x onclick='onButtonClick("🙋🏼")' href='javascript:void(0)'>🙋🏼</x>
+  <x onclick='onButtonClick("🙋🏽")' href='javascript:void(0)'>🙋🏽</x>
+  <x onclick='onButtonClick("🙋🏾")' href='javascript:void(0)'>🙋🏾</x>
+  <x onclick='onButtonClick("🙋🏿")' href='javascript:void(0)'>🙋🏿</x>
+  <x onclick='onButtonClick("🙇")' href='javascript:void(0)'>🙇</x>
+  <x onclick='onButtonClick("🙇🏻")' href='javascript:void(0)'>🙇🏻</x>
+
+  <x onclick='onButtonClick("🙇🏼")' href='javascript:void(0)'>🙇🏼</x>
+  <x onclick='onButtonClick("🙇🏽")' href='javascript:void(0)'>🙇🏽</x>
+  <x onclick='onButtonClick("🙇🏾")' href='javascript:void(0)'>🙇🏾</x>
+  <x onclick='onButtonClick("🙇🏿")' href='javascript:void(0)'>🙇🏿</x>
+  <x onclick='onButtonClick("🙌")' href='javascript:void(0)'>🙌</x>
+  <x onclick='onButtonClick("🙌🏻")' href='javascript:void(0)'>🙌🏻</x>
+  <x onclick='onButtonClick("🙌🏼")' href='javascript:void(0)'>🙌🏼</x>
+  <x onclick='onButtonClick("🙌🏽")' href='javascript:void(0)'>🙌🏽</x>
+  <x onclick='onButtonClick("🙌🏾")' href='javascript:void(0)'>🙌🏾</x>
+  <x onclick='onButtonClick("🙌🏿")' href='javascript:void(0)'>🙌🏿</x>
+  <x onclick='onButtonClick("🙏")' href='javascript:void(0)'>🙏</x>
+  <x onclick='onButtonClick("🙏🏻")' href='javascript:void(0)'>🙏🏻</x>
+  <x onclick='onButtonClick("🙏🏼")' href='javascript:void(0)'>🙏🏼</x>
+  <x onclick='onButtonClick("🙏🏽")' href='javascript:void(0)'>🙏🏽</x>
+  <x onclick='onButtonClick("🙏🏾")' href='javascript:void(0)'>🙏🏾</x>
+  <x onclick='onButtonClick("🙏🏿")' href='javascript:void(0)'>🙏🏿</x>
+  <x onclick='onButtonClick("🗣️")' href='javascript:void(0)'>🗣️</x>
+  <x onclick='onButtonClick("👤")' href='javascript:void(0)'>👤</x>
+  <x onclick='onButtonClick("👥")' href='javascript:void(0)'>👥</x>
+  <x onclick='onButtonClick("🚶")' href='javascript:void(0)'>🚶</x>
+  <x onclick='onButtonClick("🚶🏻")' href='javascript:void(0)'>🚶🏻</x>
+  <x onclick='onButtonClick("🚶🏼")' href='javascript:void(0)'>🚶🏼</x>
+  <x onclick='onButtonClick("🚶🏽")' href='javascript:void(0)'>🚶🏽</x>
+  <x onclick='onButtonClick("🚶🏾")' href='javascript:void(0)'>🚶🏾</x>
+  <x onclick='onButtonClick("🚶🏿")' href='javascript:void(0)'>🚶🏿</x>
+
+  <x onclick='onButtonClick("🏃")' href='javascript:void(0)'>🏃</x>
+  <x onclick='onButtonClick("🏃🏻")' href='javascript:void(0)'>🏃🏻</x>
+  <x onclick='onButtonClick("🏃🏼")' href='javascript:void(0)'>🏃🏼</x>
+  <x onclick='onButtonClick("🏃🏽")' href='javascript:void(0)'>🏃🏽</x>
+  <x onclick='onButtonClick("🏃🏾")' href='javascript:void(0)'>🏃🏾</x>
+  <x onclick='onButtonClick("🏃🏿")' href='javascript:void(0)'>🏃🏿</x>
+  <x onclick='onButtonClick("👯")' href='javascript:void(0)'>👯</x>
+  <x onclick='onButtonClick("💃")' href='javascript:void(0)'>💃</x>
+  <x onclick='onButtonClick("💃🏻")' href='javascript:void(0)'>💃🏻</x>
+  <x onclick='onButtonClick("💃🏼")' href='javascript:void(0)'>💃🏼</x>
+  <x onclick='onButtonClick("💃🏽")' href='javascript:void(0)'>💃🏽</x>
+  <x onclick='onButtonClick("💃🏾")' href='javascript:void(0)'>💃🏾</x>
+  <x onclick='onButtonClick("💃🏿")' href='javascript:void(0)'>💃🏿</x>
+  <x onclick='onButtonClick("🕴️")' href='javascript:void(0)'>🕴️</x>
+  <x onclick='onButtonClick("👫")' href='javascript:void(0)'>👫</x>
+  <x onclick='onButtonClick("👬")' href='javascript:void(0)'>👬</x>
+  <x onclick='onButtonClick("👭")' href='javascript:void(0)'>👭</x>
+  <x onclick='onButtonClick("💏")' href='javascript:void(0)'>💏</x>
+  <x onclick='onButtonClick("👩‍❤️‍💋‍👨")' href='javascript:void(0)'>👩‍❤️‍💋‍👨</x>
+  <x onclick='onButtonClick("👨‍❤️‍💋‍👨")' href='javascript:void(0)'>👨‍❤️‍💋‍👨</x>
+  <x onclick='onButtonClick("👩‍❤️‍💋‍👩")' href='javascript:void(0)'>👩‍❤️‍💋‍👩</x>
+  <x onclick='onButtonClick("💑")' href='javascript:void(0)'>💑</x>
+  <x onclick='onButtonClick("👩‍❤️‍👨")' href='javascript:void(0)'>👩‍❤️‍👨</x>
+  <x onclick='onButtonClick("👨‍❤️‍👨")' href='javascript:void(0)'>👨‍❤️‍👨</x>
+  <x onclick='onButtonClick("👩‍❤️‍👩")' href='javascript:void(0)'>👩‍❤️‍👩</x>
+
+  <x onclick='onButtonClick("👪")' href='javascript:void(0)'>👪</x>
+  <x onclick='onButtonClick("👨‍👩‍👦")' href='javascript:void(0)'>👨‍👩‍👦</x>
+  <x onclick='onButtonClick("👨‍👩‍👧")' href='javascript:void(0)'>👨‍👩‍👧</x>
+  <x onclick='onButtonClick("👨‍👩‍👧‍👦")' href='javascript:void(0)'>👨‍👩‍👧‍👦</x>
+  <x onclick='onButtonClick("👨‍👩‍👦‍👦")' href='javascript:void(0)'>👨‍👩‍👦‍👦</x>
+  <x onclick='onButtonClick("👨‍👩‍👧‍👧")' href='javascript:void(0)'>👨‍👩‍👧‍👧</x>
+  <x onclick='onButtonClick("👨‍👨‍👦")' href='javascript:void(0)'>👨‍👨‍👦</x>
+  <x onclick='onButtonClick("👨‍👨‍👧")' href='javascript:void(0)'>👨‍👨‍👧</x>
+  <x onclick='onButtonClick("👨‍👨‍👧‍👦")' href='javascript:void(0)'>👨‍👨‍👧‍👦</x>
+  <x onclick='onButtonClick("👨‍👨‍👦‍👦")' href='javascript:void(0)'>👨‍👨‍👦‍👦</x>
+  <x onclick='onButtonClick("👨‍👨‍👧‍👧")' href='javascript:void(0)'>👨‍👨‍👧‍👧</x>
+  <x onclick='onButtonClick("👩‍👩‍👦")' href='javascript:void(0)'>👩‍👩‍👦</x>
+  <x onclick='onButtonClick("👩‍👩‍👧")' href='javascript:void(0)'>👩‍👩‍👧</x>
+  <x onclick='onButtonClick("👩‍👩‍👧‍👦")' href='javascript:void(0)'>👩‍👩‍👧‍👦</x>
+  <x onclick='onButtonClick("👩‍👩‍👦‍👦")' href='javascript:void(0)'>👩‍👩‍👦‍👦</x>
+  <x onclick='onButtonClick("👩‍👩‍👧‍👧")' href='javascript:void(0)'>👩‍👩‍👧‍👧</x>
+  <x onclick='onButtonClick("🏻")' href='javascript:void(0)'>🏻</x>
+  <x onclick='onButtonClick("🏼")' href='javascript:void(0)'>🏼</x>
+  <x onclick='onButtonClick("🏽")' href='javascript:void(0)'>🏽</x>
+  <x onclick='onButtonClick("🏾")' href='javascript:void(0)'>🏾</x>
+  <x onclick='onButtonClick("🏿")' href='javascript:void(0)'>🏿</x>
+  <x onclick='onButtonClick("💪")' href='javascript:void(0)'>💪</x>
+  <x onclick='onButtonClick("💪🏻")' href='javascript:void(0)'>💪🏻</x>
+  <x onclick='onButtonClick("💪🏼")' href='javascript:void(0)'>💪🏼</x>
+  <x onclick='onButtonClick("💪🏽")' href='javascript:void(0)'>💪🏽</x>
+
+  <x onclick='onButtonClick("💪🏾")' href='javascript:void(0)'>💪🏾</x>
+  <x onclick='onButtonClick("💪🏿")' href='javascript:void(0)'>💪🏿</x>
+  <x onclick='onButtonClick("👈")' href='javascript:void(0)'>👈</x>
+  <x onclick='onButtonClick("👈🏻")' href='javascript:void(0)'>👈🏻</x>
+  <x onclick='onButtonClick("👈🏼")' href='javascript:void(0)'>👈🏼</x>
+  <x onclick='onButtonClick("👈🏽")' href='javascript:void(0)'>👈🏽</x>
+  <x onclick='onButtonClick("👈🏾")' href='javascript:void(0)'>👈🏾</x>
+  <x onclick='onButtonClick("👈🏿")' href='javascript:void(0)'>👈🏿</x>
+  <x onclick='onButtonClick("👉")' href='javascript:void(0)'>👉</x>
+  <x onclick='onButtonClick("👉🏻")' href='javascript:void(0)'>👉🏻</x>
+  <x onclick='onButtonClick("👉🏼")' href='javascript:void(0)'>👉🏼</x>
+  <x onclick='onButtonClick("👉🏽")' href='javascript:void(0)'>👉🏽</x>
+  <x onclick='onButtonClick("👉🏾")' href='javascript:void(0)'>👉🏾</x>
+  <x onclick='onButtonClick("👉🏿")' href='javascript:void(0)'>👉🏿</x>
+  <x onclick='onButtonClick("☝️")' href='javascript:void(0)'>☝️</x>
+  <x onclick='onButtonClick("☝️🏻")' href='javascript:void(0)'>☝️🏻</x>
+  <x onclick='onButtonClick("☝️🏼")' href='javascript:void(0)'>☝️🏼</x>
+  <x onclick='onButtonClick("☝️🏽")' href='javascript:void(0)'>☝️🏽</x>
+  <x onclick='onButtonClick("☝️🏾")' href='javascript:void(0)'>☝️🏾</x>
+  <x onclick='onButtonClick("☝️🏿")' href='javascript:void(0)'>☝️🏿</x>
+  <x onclick='onButtonClick("👆")' href='javascript:void(0)'>👆</x>
+  <x onclick='onButtonClick("👆🏻")' href='javascript:void(0)'>👆🏻</x>
+  <x onclick='onButtonClick("👆🏼")' href='javascript:void(0)'>👆🏼</x>
+  <x onclick='onButtonClick("👆🏽")' href='javascript:void(0)'>👆🏽</x>
+  <x onclick='onButtonClick("👆🏾")' href='javascript:void(0)'>👆🏾</x>
+
+  <x onclick='onButtonClick("👆🏿")' href='javascript:void(0)'>👆🏿</x>
+  <x onclick='onButtonClick("🖕")' href='javascript:void(0)'>🖕</x>
+  <x onclick='onButtonClick("🖕🏻")' href='javascript:void(0)'>🖕🏻</x>
+  <x onclick='onButtonClick("🖕🏼")' href='javascript:void(0)'>🖕🏼</x>
+  <x onclick='onButtonClick("🖕🏽")' href='javascript:void(0)'>🖕🏽</x>
+  <x onclick='onButtonClick("🖕🏾")' href='javascript:void(0)'>🖕🏾</x>
+  <x onclick='onButtonClick("🖕🏿")' href='javascript:void(0)'>🖕🏿</x>
+  <x onclick='onButtonClick("👇")' href='javascript:void(0)'>👇</x>
+  <x onclick='onButtonClick("👇🏻")' href='javascript:void(0)'>👇🏻</x>
+  <x onclick='onButtonClick("👇🏼")' href='javascript:void(0)'>👇🏼</x>
+  <x onclick='onButtonClick("👇🏽")' href='javascript:void(0)'>👇🏽</x>
+  <x onclick='onButtonClick("👇🏾")' href='javascript:void(0)'>👇🏾</x>
+  <x onclick='onButtonClick("👇🏿")' href='javascript:void(0)'>👇🏿</x>
+  <x onclick='onButtonClick("✌️")' href='javascript:void(0)'>✌️</x>
+  <x onclick='onButtonClick("✌️🏻")' href='javascript:void(0)'>✌️🏻</x>
+  <x onclick='onButtonClick("✌️🏼")' href='javascript:void(0)'>✌️🏼</x>
+  <x onclick='onButtonClick("✌️🏽")' href='javascript:void(0)'>✌️🏽</x>
+  <x onclick='onButtonClick("✌️🏾")' href='javascript:void(0)'>✌️🏾</x>
+  <x onclick='onButtonClick("✌️🏿")' href='javascript:void(0)'>✌️🏿</x>
+  <x onclick='onButtonClick("🖖")' href='javascript:void(0)'>🖖</x>
+  <x onclick='onButtonClick("🖖🏻")' href='javascript:void(0)'>🖖🏻</x>
+  <x onclick='onButtonClick("🖖🏼")' href='javascript:void(0)'>🖖🏼</x>
+  <x onclick='onButtonClick("🖖🏽")' href='javascript:void(0)'>🖖🏽</x>
+  <x onclick='onButtonClick("🖖🏾")' href='javascript:void(0)'>🖖🏾</x>
+  <x onclick='onButtonClick("🖖🏿")' href='javascript:void(0)'>🖖🏿</x>
+
+  <x onclick='onButtonClick("🤘")' href='javascript:void(0)'>🤘</x>
+  <x onclick='onButtonClick("🤘🏻")' href='javascript:void(0)'>🤘🏻</x>
+  <x onclick='onButtonClick("🤘🏼")' href='javascript:void(0)'>🤘🏼</x>
+  <x onclick='onButtonClick("🤘🏽")' href='javascript:void(0)'>🤘🏽</x>
+  <x onclick='onButtonClick("🤘🏾")' href='javascript:void(0)'>🤘🏾</x>
+  <x onclick='onButtonClick("🤘🏿")' href='javascript:void(0)'>🤘🏿</x>
+  <x onclick='onButtonClick("🖐️")' href='javascript:void(0)'>🖐️</x>
+  <x onclick='onButtonClick("🖐️🏻")' href='javascript:void(0)'>🖐️🏻</x>
+  <x onclick='onButtonClick("🖐️🏼")' href='javascript:void(0)'>🖐️🏼</x>
+  <x onclick='onButtonClick("🖐️🏽")' href='javascript:void(0)'>🖐️🏽</x>
+  <x onclick='onButtonClick("🖐️🏾")' href='javascript:void(0)'>🖐️🏾</x>
+  <x onclick='onButtonClick("🖐️🏿")' href='javascript:void(0)'>🖐️🏿</x>
+  <x onclick='onButtonClick("✋")' href='javascript:void(0)'>✋</x>
+  <x onclick='onButtonClick("✋🏻")' href='javascript:void(0)'>✋🏻</x>
+  <x onclick='onButtonClick("✋🏼")' href='javascript:void(0)'>✋🏼</x>
+  <x onclick='onButtonClick("✋🏽")' href='javascript:void(0)'>✋🏽</x>
+  <x onclick='onButtonClick("✋🏾")' href='javascript:void(0)'>✋🏾</x>
+  <x onclick='onButtonClick("✋🏿")' href='javascript:void(0)'>✋🏿</x>
+  <x onclick='onButtonClick("👌")' href='javascript:void(0)'>👌</x>
+  <x onclick='onButtonClick("👌🏻")' href='javascript:void(0)'>👌🏻</x>
+  <x onclick='onButtonClick("👌🏼")' href='javascript:void(0)'>👌🏼</x>
+  <x onclick='onButtonClick("👌🏽")' href='javascript:void(0)'>👌🏽</x>
+  <x onclick='onButtonClick("👌🏾")' href='javascript:void(0)'>👌🏾</x>
+  <x onclick='onButtonClick("👌🏿")' href='javascript:void(0)'>👌🏿</x>
+  <x onclick='onButtonClick("👍")' href='javascript:void(0)'>👍</x>
+
+  <x onclick='onButtonClick("👍🏻")' href='javascript:void(0)'>👍🏻</x>
+  <x onclick='onButtonClick("👍🏼")' href='javascript:void(0)'>👍🏼</x>
+  <x onclick='onButtonClick("👍🏽")' href='javascript:void(0)'>👍🏽</x>
+  <x onclick='onButtonClick("👍🏾")' href='javascript:void(0)'>👍🏾</x>
+  <x onclick='onButtonClick("👍🏿")' href='javascript:void(0)'>👍🏿</x>
+  <x onclick='onButtonClick("👎")' href='javascript:void(0)'>👎</x>
+  <x onclick='onButtonClick("👎🏻")' href='javascript:void(0)'>👎🏻</x>
+  <x onclick='onButtonClick("👎🏼")' href='javascript:void(0)'>👎🏼</x>
+  <x onclick='onButtonClick("👎🏽")' href='javascript:void(0)'>👎🏽</x>
+  <x onclick='onButtonClick("👎🏾")' href='javascript:void(0)'>👎🏾</x>
+  <x onclick='onButtonClick("👎🏿")' href='javascript:void(0)'>👎🏿</x>
+  <x onclick='onButtonClick("✊")' href='javascript:void(0)'>✊</x>
+  <x onclick='onButtonClick("✊🏻")' href='javascript:void(0)'>✊🏻</x>
+  <x onclick='onButtonClick("✊🏼")' href='javascript:void(0)'>✊🏼</x>
+  <x onclick='onButtonClick("✊🏽")' href='javascript:void(0)'>✊🏽</x>
+  <x onclick='onButtonClick("✊🏾")' href='javascript:void(0)'>✊🏾</x>
+  <x onclick='onButtonClick("✊🏿")' href='javascript:void(0)'>✊🏿</x>
+  <x onclick='onButtonClick("👊")' href='javascript:void(0)'>👊</x>
+  <x onclick='onButtonClick("👊🏻")' href='javascript:void(0)'>👊🏻</x>
+  <x onclick='onButtonClick("👊🏼")' href='javascript:void(0)'>👊🏼</x>
+  <x onclick='onButtonClick("👊🏽")' href='javascript:void(0)'>👊🏽</x>
+  <x onclick='onButtonClick("👊🏾")' href='javascript:void(0)'>👊🏾</x>
+  <x onclick='onButtonClick("👊🏿")' href='javascript:void(0)'>👊🏿</x>
+  <x onclick='onButtonClick("👋")' href='javascript:void(0)'>👋</x>
+  <x onclick='onButtonClick("👋🏻")' href='javascript:void(0)'>👋🏻</x>
+
+  <x onclick='onButtonClick("👋🏼")' href='javascript:void(0)'>👋🏼</x>
+  <x onclick='onButtonClick("👋🏽")' href='javascript:void(0)'>👋🏽</x>
+  <x onclick='onButtonClick("👋🏾")' href='javascript:void(0)'>👋🏾</x>
+  <x onclick='onButtonClick("👋🏿")' href='javascript:void(0)'>👋🏿</x>
+  <x onclick='onButtonClick("👏")' href='javascript:void(0)'>👏</x>
+  <x onclick='onButtonClick("👏🏻")' href='javascript:void(0)'>👏🏻</x>
+  <x onclick='onButtonClick("👏🏼")' href='javascript:void(0)'>👏🏼</x>
+  <x onclick='onButtonClick("👏🏽")' href='javascript:void(0)'>👏🏽</x>
+  <x onclick='onButtonClick("👏🏾")' href='javascript:void(0)'>👏🏾</x>
+  <x onclick='onButtonClick("👏🏿")' href='javascript:void(0)'>👏🏿</x>
+  <x onclick='onButtonClick("👐")' href='javascript:void(0)'>👐</x>
+  <x onclick='onButtonClick("👐🏻")' href='javascript:void(0)'>👐🏻</x>
+  <x onclick='onButtonClick("👐🏼")' href='javascript:void(0)'>👐🏼</x>
+  <x onclick='onButtonClick("👐🏽")' href='javascript:void(0)'>👐🏽</x>
+  <x onclick='onButtonClick("👐🏾")' href='javascript:void(0)'>👐🏾</x>
+  <x onclick='onButtonClick("👐🏿")' href='javascript:void(0)'>👐🏿</x>
+  <x onclick='onButtonClick("✍️")' href='javascript:void(0)'>✍️</x>
+  <x onclick='onButtonClick("✍️🏻")' href='javascript:void(0)'>✍️🏻</x>
+  <x onclick='onButtonClick("✍️🏼")' href='javascript:void(0)'>✍️🏼</x>
+  <x onclick='onButtonClick("✍️🏽")' href='javascript:void(0)'>✍️🏽</x>
+  <x onclick='onButtonClick("✍️🏾")' href='javascript:void(0)'>✍️🏾</x>
+  <x onclick='onButtonClick("✍️🏿")' href='javascript:void(0)'>✍️🏿</x>
+  <x onclick='onButtonClick("💅")' href='javascript:void(0)'>💅</x>
+  <x onclick='onButtonClick("💅🏻")' href='javascript:void(0)'>💅🏻</x>
+  <x onclick='onButtonClick("💅🏼")' href='javascript:void(0)'>💅🏼</x>
+</cat>
+  <x onclick='onButtonClick("")' href='javascript:void(0)'></x>
+  <x onclick='onButtonClick("")' href='javascript:void(0)'></x>
+</div>
+</div>
+								
+							</div>
+							</div>
+					</div>
+										
+			</div>
+			</div>
+		</section>
+		<script src="js/jquery.js"></script>
+		<script src="js/chat.js"></script>
+		 <script src="js/index.js"></script>
+        <script src="js/emojis.js"></script>
+        <script src='http://kevinsieger.de/CDN/emoji1/emoji.min.js'></script>
+		<script src="js/main.js"></script>	<!-- Inserta tu codigo aqui -->
+	</body>
+</html>
